@@ -1,1 +1,1 @@
-#https://ozodjon6.github.io/random-vue/
+https://ozodjon6.github.io/random-vue/

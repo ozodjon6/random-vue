@@ -8,7 +8,8 @@ const app = Vue.createApp({
             picture: 'https://randomuser.me/api/portraits/men/10.jpg',
             cell: '99897 135-14-00',
             city: 'Tashkent',
-            country: 'Uzbekistan'
+            country: 'Uzbekistan',
+            age: 24
         }
     },
     methods: {
@@ -24,7 +25,8 @@ const app = Vue.createApp({
             this.picture = results[0].picture.large,
             this.cell = results[0].cell
             this.city = results[0].location.city
-            this.country = results[0].location.country
+            this.country = results[0].location.country  
+            this.age = results[0].dob.age
         }
     },
 }).mount('#app');
